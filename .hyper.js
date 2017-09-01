@@ -74,7 +74,7 @@ module.exports = {
     env: {},
 
     // set to false for no bell
-    bell: 'SOUND',
+    bell: false,
 
     // if true, selected text will automatically be copied to the clipboard
     copyOnSelect: false,
@@ -114,15 +114,15 @@ module.exports = {
     'hyperterm-tabs',
     'hyperminimal',
     'hyper-snazzy',
-    'hyper-search'
+    'hyper-search',
+    '@littlehelicase/hyper-statusline',
+    '@littlehelicase/gitrocket',
+    '@littlehelicase/hyperterm-overlay'
   ],
 
   // in development, you can create a directory under
   // `~/.hyper_plugins/local/` and include it here
   // to load it and avoid it being `npm install`ed
   localPlugins: [
-    'hyper-statusline',
-    'hyperterm-overlay',
-    'gitrocket'
 ],
 };
