@@ -30,12 +30,12 @@ module.exports = {
     // set to `true` if you're using a Linux set up
     // that doesn't shows native menus
     // default: `false` on Linux, `true` on Windows (ignored on macOS)
-    showHamburgerMenu: '',
+    //showHamburgerMenu: '',
 
     // set to `false` if you want to hide the minimize, maximize and close buttons
     // additionally, set to `'left'` if you want them on the left, like in Ubuntu
     // default: `true` on windows and Linux (ignored on macOS)
-    showWindowControls: '',
+    //showWindowControls: true,
 
     // custom padding (css format, i.e.: `top right bottom left`)
     padding: '12px 14px',
@@ -115,9 +115,9 @@ module.exports = {
     'hyperminimal',
     'hyper-snazzy',
     'hyper-search',
-    '@littlehelicase/hyper-statusline',
-    '@littlehelicase/gitrocket',
-    '@littlehelicase/hyperterm-overlay'
+    'hyperpower',
+    'hyper-statusline',
+    'gitrocket'
   ],
 
   // in development, you can create a directory under
